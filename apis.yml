@@ -1,7 +1,25 @@
 aid: mountaintopgg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mountaintopgg.png
 name: Mountaintop.gg
-description: Mountaintop.gg is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Mountaintop (Mountaintop.gg) was a remote-first independent video game studio founded
+  in 2020 by veterans of Blizzard, Respawn, Riot, and Bungie, led by Oculus co-founder Nate Mitchell.
+  Backed by a Series A led by Andreessen Horowitz (a16z), the studio built Spectre Divide, a free-to-play
+  3v3 tactical PvP shooter featuring its signature "Duality" two-body mechanic. The game launched in
+  2024, but the studio wound down and Spectre Divide's online services were shut down in 2025. Mountaintop
+  is a consumer game studio, not an API provider, and publishes no developer API, SDKs, or developer
+  portal, and its public web and support surfaces are now offline. It remains cataloged in the API
+  Evangelist network as an a16z portfolio company with no active API surface.
 url: https://raw.githubusercontent.com/api-evangelist/mountaintopgg/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 tags:
 - Company
+- Gaming
+- Video Games
+- Game Studio
+- Esports
+- Multiplayer
+- PvP Shooter
+- No API Surface
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
